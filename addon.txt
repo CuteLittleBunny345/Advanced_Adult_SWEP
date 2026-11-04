@@ -1,0 +1,6 @@
+"AddonInfo"
+{
+	"name" "Body collision swep"
+	"author_name" "Author Name"
+	"info" "{"title":"Body collision swep","type":"weapon","tags":["fun","realism","roleplay"],"ignore":["*.db","*.res","*.tga","*.lnk"]}"
+}
