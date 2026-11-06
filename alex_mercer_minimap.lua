@@ -29,8 +29,8 @@ local RT_R = VIEW_R + 1080 -- the snapshot's half size: the round disc turns ins
 local INDOOR = 400 -- a ceiling closer than this over him = indoors: the camera stays under it
 -- (user 2026-10-28: since the minimap, the effects and anims went jerky - 20 full scene renders a second, the
 -- particles drawn - and stepped - in them too) 10 snapshots a second, of the map's brushes only (M.rendering hooks)
-local RT_SIZE, RT_HZ = 512, 10
-local SHOT_MOVE, SHOT_T = 700, 3 -- (the disc is round: it turns inside RT_R - VIEW_R = 1080 units of margin)
+local RT_SIZE, RT_HZ = 512, 2
+local SHOT_MOVE, SHOT_T = 900, 4 -- (the disc is round: it turns inside RT_R - VIEW_R = 1080 units of margin)
 local SEGS = 48
 
 local rt, rtMat
